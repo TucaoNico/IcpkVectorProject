@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="738px" height="505px" viewBox="0 0 738 505" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>支付宝</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M513.174683,310.622529 C533.981472,310.377166 554.812798,310.573456 575.619588,310.54892 C575.619588,335.158837 575.595051,359.768755 575.619588,384.378672 C626.164383,384.476817 676.684642,384.378672 727.204901,384.427745 C727.253974,392.671944 727.253974,400.916144 727.204901,409.18488 C676.684642,409.233952 626.164383,409.135807 575.644124,409.233952 C575.619588,424.127492 575.570515,439.021031 575.66866,453.939106 C616.889658,453.91457 658.135193,454.037251 699.356191,453.865497 C688.167634,500.067366 670.526029,544.674375 646.995709,585.968982 C715.255719,610.652508 1013.64378,705.362658 1084.75,720.77146 L1043.54094,822.463607 C806.18375,726.779238 661.153159,666.546218 608.449168,641.764547 C592.402423,661.442666 574.368236,679.599534 554.493826,695.44999 C516.11904,725.997694 469.3283,747.614181 419.912175,750.484929 C382.101724,752.864951 341.837641,745.037869 311.756127,720.77146 C286.655484,700.847977 271.3939,668.950777 272.79247,636.783676 C274.191039,602.629135 292.347907,569.112538 321.055388,550.268653 C349.542042,531.915494 384.138237,524.530065 417.75298,526.811942 C475.609595,530.565997 531.60145,547.275223 586.464636,564.965902 C601.382712,537.607918 613.258285,508.606001 621.919602,478.671705 C539.992868,478.622632 458.066134,478.696241 376.139401,478.647169 C376.090328,470.402969 376.065792,462.15877 376.114864,453.939106 C418.41546,453.939106 460.691519,453.988179 502.967579,453.91457 C502.992115,439.021031 503.016651,424.127492 502.967579,409.233952 C451.784839,409.135807 400.6021,409.258489 349.443897,409.160343 C349.419361,400.916144 349.419361,392.671944 349.419361,384.427745 C400.6021,384.378672 451.809376,384.452281 502.992115,384.378672 C503.139333,363.081156 502.722216,341.783641 503.139333,320.486125 C502.89397,315.186282 507.801231,310.033658 513.174683,310.622529 Z M381.758215,567.272315 C355.283538,570.339353 326.379767,577.724782 308.81177,599.316733 C294.26174,616.124105 290.311394,641.421039 300.003236,661.589884 C309.327033,682.077702 329.275052,695.670816 350.204523,702.442838 C382.101724,712.478188 417.409471,711.226836 448.595119,699.1059 C491.312832,682.519355 526.645116,650.91659 554.174854,614.848217 C500.513948,588.815193 442.976305,562.242371 381.758215,567.272315 Z" id="path-1"></path>
+        <filter x="-5.3%" y="-5.5%" width="110.6%" height="116.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alipay" transform="translate(-256.000000, -297.000000)" fill-rule="nonzero">
+            <g id="支付宝">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

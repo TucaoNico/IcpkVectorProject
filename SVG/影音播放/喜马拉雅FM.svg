@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="435px" height="417px" viewBox="0 0 435 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>喜马拉雅FM</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.1%" y="-6.9%" width="120.2%" height="121.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="归档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xmlaya" transform="translate(-323.000000, -336.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="喜马拉雅FM" filter="url(#filter-1)" transform="translate(328.000000, 337.000000)">
+                <path d="M203.074302,36.1749371 C202.961649,17.1018379 219.972198,0.0319784154 238.98233,0.0884077029 C300.997608,0.00376377161 362.984722,-0.0808801597 425,0.14483699 C424.295921,13.5750074 416.917173,26.7512461 404.666199,32.8173945 C395.485009,38.0653182 384.557703,36.8520885 374.418965,36.9649471 C335.77911,36.9931617 297.167418,36.8520885 258.555726,37.0213764 C248.445152,36.5981567 239.432941,45.7961306 239.968041,55.8969731 C239.799062,80.3872838 239.968041,104.905809 239.911715,129.39612 C301.589034,129.537193 363.266354,129.255047 424.943674,129.508979 C424.493063,146.748126 411.960457,162.153321 395.118888,165.84944 C395.034398,233.649229 395.147051,301.449018 395.062561,369.277021 C395.879293,389.337633 378.02385,406.746068 358.281475,407 C358.056169,326.785768 358.281475,246.59975 358.168822,166.385518 C318.740399,166.357303 279.340138,166.357303 239.911715,166.385518 C239.911715,234.016019 239.939878,301.64652 239.883551,369.277021 C240.700283,389.337633 222.84484,406.802497 203.074302,406.943571 C202.989812,283.363431 202.961649,159.755077 203.074302,36.1749371 Z" id="Shape"></path>
+                <path d="M0.0934854957,39.1231047 C-0.556739225,19.5156823 17.0558695,1.59855493 36.8170469,2.07747186 C67.8864803,1.96478552 98.9559137,1.9929571 130.025347,2.04930027 C149.814795,1.51404018 167.568757,19.402996 166.918532,39.0949331 C167.003344,142.484646 166.918532,245.874359 166.946803,349.264072 C167.964546,367.068513 154.253286,384.140493 136.612406,387.098509 C124.145054,388.53526 111.564619,387.098509 99.0407257,388 C116.936041,384.337694 130.958278,367.54743 129.883994,349.123214 C129.912265,252.381995 129.912265,155.612604 129.883994,58.8432135 C130.873466,48.1661832 121.402802,38.1370993 110.575147,38.9540752 C91.6055473,38.9540752 72.6076772,38.5878446 53.6663484,39.1231047 C43.799895,39.6301932 36.3081754,49.3493897 37.128024,58.9277282 C37.0997533,149.13314 37.1562946,239.31038 37.0997533,329.48762 C36.8170469,335.431824 38.3153908,341.742259 42.9800464,345.798967 C55.6735638,357.321145 76.1132366,344.108672 88.3826944,356.729542 C99.8605742,366.84314 90.4747217,386.732279 76.1132366,387.436568 C62.1192698,387.971828 48.0687617,387.802799 34.0747948,387.521083 C14.7942183,386.506906 -1.15042267,368.223548 0.0652148556,349.095043 C0.0934854957,245.761673 0.00867357555,142.456475 0.0934854957,39.1231047 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

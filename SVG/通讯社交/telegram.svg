@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="539px" height="452px" viewBox="0 0 539 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.1%" y="-6.3%" width="116.3%" height="119.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="归档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telegram_x" transform="translate(-239.000000, -348.000000)" fill-rule="nonzero">
+            <g id="telegram" filter="url(#filter-1)" transform="translate(244.000000, 348.000000)">
+                <path d="M480.669444,9.8375 C489.456944,6.64444444 498.086111,2.76527778 507.322222,0.997222222 C515.291667,-0.0847222222 524.870833,4.1375 527.140278,12.3972222 C530.570833,24.2722222 526.665278,36.5694444 525.108333,48.4180556 C504.920833,173.290278 476.843056,296.7375 445.677778,419.2875 C443.461111,429.051389 436.705556,437.865278 427.390278,441.718056 C417.916667,444.805556 407.915278,441.454167 400.394444,435.516667 C362.631944,407.65 324.843056,379.809722 287.265278,351.705556 C261.826389,333.3125 236.836111,314.286111 211.344444,295.945833 C217.044444,286.498611 225.911111,279.769444 234.038889,272.591667 C290.036111,221.238889 346.191667,170.018056 402.1625,118.6125 C415.304167,106.156944 429.527778,94.8361111 441.719444,81.4041667 C439.581944,79.6097222 437.444444,77.8152778 435.306944,76.0472222 C422.191667,82.3805556 410.105556,90.5875 397.8875,98.5041667 C323.655556,145.608333 249.6875,193.134722 175.402778,240.133333 C162.947222,248.102778 150.755556,256.520833 137.798611,263.698611 C95.8138889,249.026389 53.4861111,235.198611 11.6069444,220.209722 C1.10416667,216.673611 -3.03888889,202.106944 4.64027778,193.926389 C13.8763889,184.954167 26.8597222,181.998611 38.4708333,177.327778 C185.826389,121.409722 333.208333,65.5444444 480.669444,9.8375 Z" id="Shape" fill="#F5F9FC"></path>
+                <path d="M397.8875,98.5041667 C410.105556,90.5875 422.191667,82.3805556 435.306944,76.0472222 C437.444444,77.8152778 439.581944,79.6097222 441.719444,81.4041667 C429.527778,94.8361111 415.304167,106.156944 402.1625,118.6125 C346.191667,170.018056 290.036111,221.238889 234.038889,272.591667 C225.911111,279.769444 217.044444,286.498611 211.344444,295.945833 C207.386111,308.454167 207.069444,321.701389 205.486111,334.631944 C203.005556,357.458333 199.548611,380.205556 198.413889,403.163889 C197.675,409.734722 198.756944,418.258333 191.209722,421.161111 C186.433333,414.986111 183.425,407.729167 181.102778,400.366667 C166.852778,354.740278 152.048611,309.325 137.798611,263.698611 C150.755556,256.520833 162.947222,248.102778 175.402778,240.133333 C249.6875,193.134722 323.655556,145.608333 397.8875,98.5041667 Z" id="Shape" fill="#CFDEEA"></path>
+                <path d="M205.486111,334.631944 C207.069444,321.701389 207.386111,308.454167 211.344444,295.945833 C236.836111,314.286111 261.826389,333.3125 287.265278,351.705556 C260.85,372.843056 236.3875,396.381944 210.315278,417.941667 C205.063889,422.85 197.754167,422.401389 191.209722,421.161111 C198.756944,418.258333 197.675,409.734722 198.413889,403.163889 C199.548611,380.205556 203.005556,357.458333 205.486111,334.631944 Z" id="Shape" fill="#AFC7D9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

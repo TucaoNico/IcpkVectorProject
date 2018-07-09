@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="476px" height="468px" viewBox="0 0 476 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>知乎</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M373.941227,353.510949 C380.974071,334.107357 402.004322,327.662347 419.961971,323 C413.338807,343.637743 406.579084,364.138358 400.365601,384.913229 C447.000864,385.118921 493.636128,384.981793 540.271392,385.050357 C543.890233,396.226277 545.870354,407.813581 547.235955,419.469449 C521.357822,419.606577 495.547969,419.606577 469.669836,419.675141 C469.533276,457.248175 468.304235,494.752645 466.119274,532.257114 C493.840968,532.18855 521.562662,532.53137 549.284356,532.051422 C552.356958,543.433035 554.883319,555.020339 557,566.676207 C526.069144,566.881899 495.070009,566.744771 464.070873,566.813335 C461.407952,586.97113 457.51599,606.923234 452.326707,626.601082 C459.496111,620.910276 466.733794,615.219469 473.903198,609.528663 C491.792567,629.549331 510.296456,649.090051 526.751945,670.276305 C541.227312,688.034363 533.784788,712.305994 531.804667,732.738045 C503.741573,700.992946 477.6586,667.533748 450.278306,635.240137 C439.08038,671.167636 425.219533,707.575083 399.61452,735.823422 C379.33535,757.009677 347.448574,759.615106 320,755.15845 C378.37943,709.426309 421.122731,642.09653 426.721694,566.881899 C393.332757,566.607643 360.0121,567.224718 326.623163,566.264823 C332.358686,554.814647 333.929127,538.222176 347.380294,533.079881 C374.692308,530.885836 402.140882,532.87419 429.521175,532.18855 C431.091616,494.684081 432.252377,457.179611 432.252377,419.606577 C418.05013,419.606577 403.779602,419.675141 389.577355,419.675141 C382.134831,449.84327 358.100259,473.497826 326.350043,475.623308 C344.990493,435.993357 358.85134,394.512179 373.941227,353.510949 Z M575.017075,381 C636.690698,381 698.296022,381 759.969645,381.068478 C760.037944,490.496092 759.969645,599.923707 759.969645,709.351321 C735.245557,710.173055 710.316573,707.77633 685.729082,710.583923 C663.532042,721.334946 643.862049,736.53703 622.621189,749 C618.72817,735.783774 614.766852,722.636025 610.873832,709.488277 C598.92158,709.488277 586.969327,709.419799 575.085373,709.419799 C574.948776,599.992185 575.017075,490.496092 575.017075,381 Z M609.098069,415.51284 C609.02977,501.931894 609.098069,588.350949 609.098069,674.770004 C616.406018,674.906959 623.713966,674.975437 631.090214,675.180871 C633.753858,684.425381 636.417503,693.669892 639.081148,702.914403 C653.082358,693.669892 666.332284,682.850391 681.699466,675.797172 C696.178766,674.085225 710.794663,674.770004 725.410561,674.906959 C725.410561,588.487905 725.478859,502.000372 725.342262,415.51284 C686.616964,415.444362 647.823367,415.444362 609.098069,415.51284 Z" id="path-1"></path>
+        <filter x="-9.8%" y="-6.5%" width="119.5%" height="119.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play-Icon-High-Resolution" transform="translate(-301.000000, -309.000000)" fill-rule="nonzero">
+            <g id="知乎">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
