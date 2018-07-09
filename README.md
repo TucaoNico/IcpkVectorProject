@@ -51,6 +51,7 @@ Photoshop Touch不支持导入SVG，你可以使用在线工具将其转换为�
 
 ## 想为 OSVIP 做贡献？
  **最大的贡献就是为本项目提供图标**
+ 我们推荐上传SVG格式的图标，若条件受限，EPS、PSD、AI、XDF、sketch、Affinitydesign等均可。
 ### Photoshop（PC/Mac）
 `文件 > 导出 > 导出为` 选择svg格式
 或者`文件 > 放置嵌入` 或 `放置链接`。 双击以编辑智能对象（Illustrator中的SVG文件）的内容。 此外，您可以从“库”面板中拖放SVG。
