@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="559px" height="469px" viewBox="0 0 559 469" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/adm pro</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.2%" y="-5.9%" width="116.4%" height="118.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="adm_pro" transform="translate(-261.000000, -310.000000)" fill-rule="nonzero">
+            <g id="adm-pro" filter="url(#filter-1)" transform="translate(266.000000, 311.000000)">
+                <polygon id="Shape" fill="#DA4D41" points="67.2661871 193.887931 67.2661871 35.612069 166.18705 35.612069 166.18705 193.887931 233.453237 193.887931 118.705036 352.163793 0 193.887931"></polygon>
+                <polygon id="Shape" fill="#1B9CE2" points="383.81295 142.448276 478.776978 142.448276 478.776978 300.724138 550 300.724138 431.294964 459 312.589928 300.724138 383.81295 300.724138"></polygon>
+                <polygon id="Shape" fill="#7EB249" points="197.841727 4.4408921e-16 352.158273 4.4408921e-16 352.158273 229.5 458.992806 229.5 276.978417 459 154.316547 304.681034 91.0071942 229.5 197.841727 229.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

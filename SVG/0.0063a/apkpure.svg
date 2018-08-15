@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="558px" height="518px" viewBox="0 0 558 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/apkpure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.6%" y="-5.5%" width="115.4%" height="117.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="apkpure" transform="translate(-269.000000, -285.000000)" fill-rule="nonzero">
+            <g filter="url(#filter-1)" transform="translate(273.000000, 285.000000)">
+                <path d="M0.641666667,380.705988 C62.2722222,254.122156 124.85,127.965868 186.113889,1.1988024 C227.761111,0.832335329 269.438889,0.923952096 311.086111,1.16826347 L310.291667,2.66467066 C288.627778,44.7778443 268.033333,87.4712575 247.438889,130.103593 C227.516667,170.99521 207.441667,211.856287 187.152778,252.59521 C174.075,275.80479 163.044444,300.083234 151.066667,323.873054 C142.480556,342.226946 132.336111,359.878443 124.819444,378.720958 C104.683333,421.292216 83.3861111,463.313772 62.6388889,505.579641 C62.1194444,505.335329 61.0805556,504.846707 60.5916667,504.602395 C40.7,463.252695 20.5944444,422.02515 0.641666667,380.705988 Z" id="Shape" fill="#38C78D"></path>
+                <path d="M247.438889,130.103593 C268.033333,87.4712575 288.627778,44.7778443 310.291667,2.66467066 C350.869444,86.3107784 392.608333,169.407186 433.552778,252.87006 C413.783333,295.349701 392.577778,337.432335 371.341667,379.301198 C349.402778,337.58503 329.847222,294.677844 308.152778,252.839521 C287.772222,211.978443 267.880556,170.903593 247.438889,130.103593 Z" id="Shape" fill="#61CD53"></path>
+                <path d="M151.066667,323.873054 C163.044444,300.083234 174.075,275.80479 187.152778,252.59521 C227.486111,253.14491 267.819444,252.686826 308.152778,252.839521 C329.847222,294.677844 349.402778,337.58503 371.341667,379.301198 C366.758333,378.720958 362.144444,378.507186 357.530556,378.629341 C279.95,378.812575 202.369444,378.323952 124.819444,378.720958 C132.336111,359.878443 142.480556,342.226946 151.066667,323.873054 Z" id="Shape" fill="#1FC767"></path>
+                <polygon id="Shape-Copy" fill="#C7F2D2" points="549.425 318.011904 526.539747 364 503.654495 318"></polygon>
+                <polygon id="Shape" fill="#9CE9B0" points="521.425 355.019096 484.7125 428.793155 448 355"></polygon>
+                <polygon id="Shape" fill="#71DF8E" points="491.944444 391.516766 433.231944 509.5 374.519444 391.486228"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

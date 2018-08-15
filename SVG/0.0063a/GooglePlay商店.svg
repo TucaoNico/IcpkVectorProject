@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="465px" height="508px" viewBox="0 0 465 508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/GooglePlay商店</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.2%" y="-5.3%" width="118.5%" height="116.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="google_play_store" transform="translate(-338.000000, -291.000000)" fill-rule="nonzero">
+            <g id="GooglePlay商店" filter="url(#filter-1)" transform="translate(343.000000, 292.000000)">
+                <path d="M9.84765258,7.22649573 C17.3882629,-2.23931624 31.0596244,1.02991453 41.3558685,2.3974359 C54.8349765,7.11965812 65.9215962,16.8418803 79.0375587,22.525641 C164.93216,71.2222222 251.424883,119.106838 337.83216,166.991453 C308.930047,192.846154 284.449765,223.722222 253.902817,247.547009 C172.088263,167.910256 90.658216,87.8034188 9.84765258,7.22649573 Z" id="Shape" fill="#28EB7B"></path>
+                <path d="M140.750939,360.111111 C142.716197,354.021368 147.778873,348.786325 154.187324,347.482906 C150.021831,352.012821 145.493192,356.179487 140.750939,360.111111 Z" id="Shape" fill="#28EB7B"></path>
+                <path d="M0,27.6965812 C3.01197183,20.7521368 4.63544601,12.9529915 9.84765258,7.22649573 C90.658216,87.8034188 172.088263,167.910256 253.902817,247.547009 L254.970892,248.764957 C219.809859,279.982906 188.472535,315.303419 154.187324,347.482906 C147.778873,348.786325 142.716197,354.021368 140.750939,360.111111 C96.4685446,402.461538 54.1086854,446.863248 10.0612676,489.448718 C4.33638498,483.764957 1.15352113,476.264957 0,468.316239 L0,27.6965812 Z" id="Shape" fill="#24CFFC"></path>
+                <path d="M253.902817,247.547009 C284.449765,223.722222 308.930047,192.846154 337.83216,166.991453 C372.288263,187.055556 407.79108,205.303419 442.097653,225.602564 C447.801174,230.196581 451.347183,236.991453 455,243.252137 L455,254.705128 C449.937324,263.807692 443.123005,272.076923 433.488967,276.564103 C401.510798,294.106838 370.045305,312.632479 337.960329,330.004274 C309.6777,303.551282 282.463146,276.029915 254.970892,248.764957 L253.902817,247.547009 Z" id="Shape" fill="#FCC930"></path>
+                <path d="M254.970892,248.764957 C282.463146,276.029915 309.6777,303.551282 337.960329,330.004274 C240.850939,384.021368 144.019249,438.508547 46.9525822,492.568376 C35.5669014,498.230769 18.9049296,500.346154 10.0612676,489.448718 C54.1086854,446.863248 96.4685446,402.461538 140.750939,360.111111 C145.493192,356.179487 150.021831,352.012821 154.187324,347.482906 C188.472535,315.303419 219.809859,279.982906 254.970892,248.764957 Z" id="Shape" fill="#EE364E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

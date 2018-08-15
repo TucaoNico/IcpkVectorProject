@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="532px" height="539px" viewBox="0 0 532 539" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/path-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M727.752525,564.4975 C728.510101,556.67 729.520202,548.085 729.520202,539.5 C729.520202,530.915 728.762626,522.835 727.752525,514.5025 L789.621212,466.5275 L728.257576,359.9725 L655.782828,389.2625 C642.90404,379.415 628.510101,370.83 612.853535,364.265 L601.489899,287 L478.510101,287 L467.39899,364.5175 C451.994949,371.0825 437.60101,379.6675 424.469697,389.7675 L351.994949,359.9725 L290.378788,466.5275 L351.994949,515.0075 C351.237374,522.835 350.479798,530.915 350.479798,539.5 C350.479798,548.085 351.237374,556.67 352.5,565.0025 L299.217172,606.16 C294.419192,609.9475 290.883838,612.725 290.883838,612.725 L352.247475,718.775 L424.974747,689.7375 C437.853535,699.08 452.247475,707.665 468.156566,714.23 L478.762626,792 L601.237374,792 C601.237374,792 601.994949,787.455 602.752525,781.395 L612.348485,714.4825 C627.752525,707.9175 642.39899,699.3325 655.782828,688.98 L728.005051,719.0275 L789.368687,612.9775 C789.368687,612.9775 785.833333,609.9475 781.035354,606.4125 L727.752525,564.4975 Z M539.873737,627.875 C491.136364,627.875 451.489899,588.2325 451.489899,539.5 C451.489899,490.7675 491.136364,451.125 539.873737,451.125 C588.611111,451.125 628.257576,490.7675 628.257576,539.5 C628.257576,588.2325 588.611111,627.875 539.873737,627.875 Z" id="path-1"></path>
+        <filter x="-8.6%" y="-5.3%" width="117.2%" height="116.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="settings" transform="translate(-274.000000, -273.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="path-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

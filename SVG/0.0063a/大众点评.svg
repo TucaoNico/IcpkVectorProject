@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="573px" height="584px" viewBox="0 0 573 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/大众点评</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M453.795775,266.127583 C498.018424,263.749797 537.015883,294.858673 544.523701,338.502652 C552.031518,382.14663 525.670973,424.497876 483.195664,437.033192 C440.720355,449.568508 395.587845,428.316296 378.194489,387.589738 C360.801134,346.86318 376.657714,299.565777 415.084961,277.551921 C426.917094,270.767924 440.176079,266.854932 453.795775,266.127583 Z M580.362808,319.745808 L652.719469,293.374629 C674.716368,364.801962 655.782197,442.539008 603.402692,495.851975 C691.383768,500.391722 768.594113,555.928228 800.879253,637.894574 C804.24955,645.625043 806.953404,653.603039 810,661.466791 L735.739217,688.123579 C730.236302,673.367143 725.285583,658.267977 716.964567,644.787258 C678.156508,580.062113 596.393515,555.610221 528.420321,588.401558 C460.447127,621.192895 428.696924,700.405338 455.204826,771.064272 C457.375525,777.157252 459.603349,783.231192 461.755008,789.343212 L387.494224,816 C383.22899,803.756918 378.659095,791.589998 375.250715,779.061308 C353.336632,698.554548 377.881704,612.536123 438.981701,555.715505 C412.794896,553.194553 387.347512,545.609105 364.054474,533.380925 C322.321951,511.44067 289.449965,475.758287 271,432.370738 C295.125234,423.573998 319.269509,414.834379 343.356661,405.980518 C352.633525,426.080177 366.977542,443.422317 384.980782,456.304726 C428.568678,487.376938 486.997015,487.648556 530.871934,456.982934 C574.746852,426.317312 594.567585,371.354849 580.362808,319.745808 Z" id="path-1"></path>
+        <filter x="-8.0%" y="-4.9%" width="115.9%" height="115.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dianping" transform="translate(-254.000000, -252.000000)" fill-rule="nonzero">
+            <g id="大众点评">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

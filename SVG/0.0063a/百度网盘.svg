@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="639px" height="505px" viewBox="0 0 639 505" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/百度网盘</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.7%" y="-13.6%" width="113.3%" height="126.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="baidu_netdisk" transform="translate(-222.000000, -277.000000)" fill-rule="nonzero">
+            <g id="百度网盘" filter="url(#filter-1)" transform="translate(227.000000, 316.000000)">
+                <ellipse id="big_blue_circle" stroke="#2D5FE0" stroke-width="75" cx="314.124702" cy="124.192939" rx="124.223747" ry="124.192939"></ellipse>
+                <ellipse id="small_red_circle" stroke="#D23F2B" stroke-width="75" cx="153.121718" cy="303.916256" rx="115.591885" ry="115.563218"></ellipse>
+                <path d="M200.409308,361.32266 L368.927913,192.998791 C371.979923,189.950308 402.602237,164.698767 426.935235,156.460591 C447.071555,149.643242 473.91894,150.066873 479.255967,150.082102 C562.206486,152.731388 628.878244,220.539741 628.878244,303.916256 C628.878244,388.329368 560.46433,455.499179 475.756525,455.499179 C438.061276,455.499179 404.901063,442.25536 376.275896,415.767715 C375.526773,415.074531 374.806654,414.350659 374.117389,413.597956 C360.315399,398.525674 361.348204,375.121227 376.424224,361.32266 C390.467061,348.46973 411.796234,347.803215 426.614554,359.754263 C443.728621,373.55684 460.109278,380.458128 475.756525,380.458128 C519.311141,380.458128 553.818578,346.578207 553.818578,303.916256 C553.818578,260.814467 518.869007,225.873563 475.756525,225.873563 C464.439747,226.567845 456.098669,228.085327 450.733294,230.000821 C444.829108,232.108675 436.896422,237.45954 426.935235,244.552595 L261.207637,411.975369 C254.452267,419.85468 228.181384,440.866174 206.038783,447.995074 C183.896181,455.123974 171.501225,456.952504 153.121718,456.99952 C68.211929,456.801504 0,388.204665 0,303.916256 C0,219.370439 68.5549285,150.832512 153.121718,150.832512 C173.848873,150.832512 190.651551,167.631024 190.651551,188.353038 C190.651551,209.075052 173.848873,225.873563 153.121718,225.873563 C110.009237,225.873563 75.0596659,260.814467 75.0596659,303.916256 C75.0596659,346.578207 112.31744,379.707718 152.74642,379.707718 C176.765513,379.707718 193.1754,367.222752 200.409308,361.32266 Z" id="Combined-Shape" fill="#3676FC"></path>
+            </g>
+        </g>
+    </g>
+</svg>

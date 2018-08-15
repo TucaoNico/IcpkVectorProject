@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="516px" height="510px" viewBox="0 0 516 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/QQ浏览器</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.3%" y="-5.4%" width="116.5%" height="116.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="qq_browser_1" transform="translate(-282.000000, -290.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="QQ浏览器" filter="url(#filter-1)" transform="translate(287.000000, 291.000000)">
+                <path d="M250,380 C321.797017,380 380,321.797017 380,250 C380,178.202983 321.797017,120 250,120 C178.202983,120 120,178.202983 120,250 C120,321.797017 178.202983,380 250,380 Z M250,500 C111.928813,500 0,388.071187 0,250 C0,111.928813 111.928813,0 250,0 C388.071187,0 500,111.928813 500,250 C500,388.071187 388.071187,500 250,500 Z" id="Oval-2"></path>
+                <path d="M312.932177,299.276569 C331.378759,287.829706 354.308886,284.078105 375.496835,288.713188 C392.969848,292.580026 409.206684,301.991037 421.011215,315.46735 C433.289722,329.129321 440.642734,346.927017 442.244,365.185659 C451.095797,365.576184 459.845114,367.93854 467.806608,371.824584 C481.212405,378.277849 492.35081,389.359795 498.839139,402.752881 C505.955165,417.067862 507.626886,433.982074 503.521241,449.423816 C498.646987,468.546735 484.844076,485.172855 466.884278,493.399488 C458.91638,497.31114 450.115823,499.078105 441.334481,499.891165 C382.625671,499.788732 323.904051,499.865557 265.195241,499.839949 C257.368253,499.769526 249.502835,500.339309 241.720684,499.404609 C233.29162,498.207426 224.958633,495.99872 217.323797,492.176697 C195.424886,481.734955 179.431443,460.019206 175.979114,436.017926 C172.155291,412.464789 180.66762,387.464789 197.80757,370.915493 C200.41443,368.489117 203.066127,366.101152 205.993241,364.058899 C225.246861,349.788732 251.50762,345.793854 274.168734,353.565941 C278.998152,331.203585 293.313468,311.069142 312.932177,299.276569 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
