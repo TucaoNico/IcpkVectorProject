@@ -71,8 +71,8 @@ Photoshop Touch不支持导入SVG，你可以使用在线工具将其转换为�
 导出，选择SVG格式。
 
 ### Photoshop Touch（Android）
-Photoshop Touch不支持导出SVG，你可以导出为`*.PSD`文件然后使用Photoshop转换为SVG。
-> 这里的方法可能不正确，因为Photoshop Touch导出的PSD内已经把矢量图层变为位图。
+~~Photoshop Touch不支持导出SVG，你可以导出为`*.PSD`文件然后使用Photoshop转换为SVG。~~
+Photoshop Touch不支持导出矢量图。您可以将涂层分开导出后打包为压缩文件上传。
 
 ### 其他
 欢迎补充
