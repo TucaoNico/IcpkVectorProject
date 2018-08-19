@@ -1,6 +1,9 @@
 # OSVI 矢量图标计划
 ---
-[TOC]
+如果您使用了OSVI的图标，我们希望您能在一个醒目或者不醒目的地方加上一个Badge
+![badge](https://img.vim-cn.com/7a/2230134d0c6566fc8ddf6193dd54e18d9495bf.png
+)
+您可以[在这里获取](https://github.com/TucaoNico/OSVI-Project/tree/master/badge)多种格式的badge，以便添加您的logo。
 
 ## OSVI 矢量图标计划是什么？
 ### 项目
