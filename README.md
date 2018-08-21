@@ -82,3 +82,7 @@ Photoshop Touch不支持导出矢量图。您可以将涂层分开导出后打�
 
 你也可以给OSVIP图标打一个5星好评，或者为所有使用了OSVIP图标的图标包打一个5星好评。
 
+### Works
+
+![OSVIP](https://i.loli.net/2018/08/21/5b7c1dc02820e.png)
+
