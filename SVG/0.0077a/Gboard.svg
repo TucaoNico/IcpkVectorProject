@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="950px" height="950px" viewBox="0 0 950 950" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/Gboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.2%" y="-2.7%" width="118.5%" height="113.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="362" width="1000" height="630" rx="75"></rect>
+        <linearGradient x1="0%" y1="0%" x2="74.869039%" y2="72.8092982%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gboard" transform="translate(-65.000000, -65.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(40.000000, 44.000000)">
+                <g id="Gboard">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle" fill="#4889F4" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <polygon id="Path-8" fill="url(#linearGradient-4)" mask="url(#mask-3)" points="1100.5 1043.75 1100.5 346 774 19.5 218.5 468 794.25 1043.75"></polygon>
+                    <path d="M150,497 L220,497 C225.522847,497 230,501.477153 230,507 L230,577 C230,582.522847 225.522847,587 220,587 L150,587 C144.477153,587 140,582.522847 140,577 L140,507 C140,501.477153 144.477153,497 150,497 Z M150,657 L220,657 C225.522847,657 230,661.477153 230,667 L230,737 C230,742.522847 225.522847,747 220,747 L150,747 C144.477153,747 140,742.522847 140,737 L140,667 C140,661.477153 144.477153,657 150,657 Z M780,496 L850,496 C855.522847,496 860,500.477153 860,506 L860,577 C860,582.522847 855.522847,587 850,587 L780,587 C774.477153,587 770,582.522847 770,577 L770,506 C770,500.477153 774.477153,496 780,496 Z M780,656 L850,656 C855.522847,656 860,660.477153 860,666 L860,737 C860,742.522847 855.522847,747 850,747 L780,747 C774.477153,747 770,742.522847 770,737 L770,666 C770,660.477153 774.477153,656 780,656 Z M623,496 L693,496 C698.522847,496 703,500.477153 703,506 L703,577 C703,582.522847 698.522847,587 693,587 L623,587 C617.477153,587 613,582.522847 613,577 L613,506 C613,500.477153 617.477153,496 623,496 Z M623,656 L693,656 C698.522847,656 703,660.477153 703,666 L703,737 C703,742.522847 698.522847,747 693,747 L623,747 C617.477153,747 613,742.522847 613,737 L613,666 C613,660.477153 617.477153,656 623,656 Z M465,496 L535,496 C540.522847,496 545,500.477153 545,506 L545,577 C545,582.522847 540.522847,587 535,587 L465,587 C459.477153,587 455,582.522847 455,577 L455,506 C455,500.477153 459.477153,496 465,496 Z M465,656 L535,656 C540.522847,656 545,660.477153 545,666 L545,737 C545,742.522847 540.522847,747 535,747 L465,747 C459.477153,747 455,742.522847 455,737 L455,666 C455,660.477153 459.477153,656 465,656 Z M308,496 L378,496 C383.522847,496 388,500.477153 388,506 L388,577 C388,582.522847 383.522847,587 378,587 L308,587 C302.477153,587 298,582.522847 298,577 L298,506 C298,500.477153 302.477153,496 308,496 Z M308,656 L378,656 C383.522847,656 388,660.477153 388,666 L388,737 C388,742.522847 383.522847,747 378,747 L308,747 C302.477153,747 298,742.522847 298,737 L298,666 C298,660.477153 302.477153,656 308,656 Z M240,808 L760,808 C765.522847,808 770,812.477153 770,818 L770,893 C770,898.522847 765.522847,903 760,903 L240,903 C234.477153,903 230,898.522847 230,893 L230,818 C230,812.477153 234.477153,808 240,808 Z" id="Combined-Shape" fill="#A5C5FA" fill-rule="nonzero"></path>
+                    <path d="M272,-1.91148846e-05 L728.000005,-1.98754914e-05 C763.898514,-1.98754914e-05 793.000005,29.1014714 793.000005,64.9999801 C793.000005,64.9999801 793.000005,64.9999809 793.000005,64.9999809 L793,428.097737 C793,447.650629 784.19803,466.164744 769.033845,478.508287 L500,697.5 L230.966156,478.508287 C215.80197,466.164744 207,447.650629 207,428.097736 L207,64.9999809 C207,29.1014721 236.101491,-1.91148846e-05 272,-1.91148846e-05 Z" id="Rectangle-3" fill="#F2F2F2" fill-rule="nonzero"></path>
+                    <g id="Google" transform="translate(302.000000, 92.000000)" fill-rule="nonzero">
+                        <path d="M22,110.570722 C57.2788952,45.5403118 127.156611,-1.80862701 202.474926,0.146535636 C252.885492,-1.97864115 301.68088,19.1881197 339,52.1708634 C319.70287,70.7024052 300.405739,89.2339464 281.278627,108.020509 C247.954948,78.2680341 197.969429,68.9172567 156.909895,87.6188122 C123.926254,100.624894 100.293644,129.697313 87.372218,162 C66.0348619,144.318529 44.1874497,127.232107 22,110.570722 Z" id="Shape" fill="#E95148"></path>
+                        <path d="M21.0361494,294 C-6.94073665,236.833799 -7.11184913,168.081005 21.1217056,111 C43.4518807,127.698324 65.4398309,144.822625 86.914444,162.543296 C80.1555017,188.868715 80.1555017,215.960894 87,242.286313 C65.2687183,259.836592 43.2807683,277.04609 21.0361494,294 Z" id="Shape" fill="#FABF33"></path>
+                        <path d="M201.427239,165.426339 C265.000527,165.085268 328.573815,165.426339 392.061654,165 C407.015048,232.532143 387.789256,307.567857 337.374956,356 C315.671172,340.054911 294.30918,323.598214 273.374428,306.629911 C294.223732,289.746875 308.066302,266.46875 315.671172,241.058929 C277.47593,240.547322 239.195241,241.314732 201,240.547322 C202.196271,215.563839 202.452615,190.495089 201.427239,165.426339 Z" id="Shape" fill="#4C8CF1"></path>
+                        <path d="M22,293.482639 C44.1097955,276.604476 65.9644777,259.471867 87.5640473,242 C98.5339074,267.868542 114.776103,292.634491 139.522067,307.222652 C179.744887,333.006379 234.339074,330.801192 274.306781,305.695984 C295.141012,322.574147 316.40043,338.943422 338,354.803806 C276.772874,409.763856 181.020452,419.263124 109.078579,380.333088 C71.7470398,361.249738 43.0043057,329.189709 22,293.482639 Z" id="Shape" fill="#41AA5C"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="558px" height="560px" viewBox="0 0 558 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>SVG/夸克浏览器</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.7%" y="-4.9%" width="115.3%" height="115.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="quark" transform="translate(-262.000000, -267.000000)" fill-rule="nonzero">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(267.000000, 268.000000)">
+                <g id="夸克浏览器">
+                    <path d="M273.172205,545.864662 C122.303362,545.864662 0,423.668695 0,272.932331 C0,122.195967 122.303362,0 273.172205,0 C424.041049,0 546.344411,122.195967 546.344411,272.932331 C546.344411,423.668695 424.041049,545.864662 273.172205,545.864662 Z M273.172205,430.902256 C360.493263,430.902256 431.280967,360.176711 431.280967,272.932331 C431.280967,185.68795 360.493263,114.962406 273.172205,114.962406 C185.851148,114.962406 115.063444,185.68795 115.063444,272.932331 C115.063444,360.176711 185.851148,430.902256 273.172205,430.902256 Z" id="Combined-Shape" fill="#5C5CEF"></path>
+                    <ellipse id="Oval-2" fill="#19FFDB" cx="409.758308" cy="411.879699" rx="138.241692" ry="138.120301"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
